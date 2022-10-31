@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+/*
+body {
+    
+}
+*/
+
+/* Header and paragraph */
+h1 {
+    font-size: 400%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+#welcome-text {
+    text-align: center;
+    font-size: 200%;
+}
