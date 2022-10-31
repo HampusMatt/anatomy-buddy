@@ -21,3 +21,20 @@ h1 {
     text-align: center;
     font-size: 200%;
 }
+
+/* navigation */
+nav {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 20px;
+    list-style-type: none;
+}
+
+#nav_links a {
+    text-decoration: none;
+}
