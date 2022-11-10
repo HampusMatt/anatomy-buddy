@@ -3,38 +3,56 @@
     border: none;
     padding: 0;
 }
-/*
-body {
-    
-}
-*/
 
-/* Header and paragraph */
-h1 {
-    font-size: 400%;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 5px;
+header {
+    height: 80px;
+    background-color: aqua;
 }
 
-#welcome-text {
-    text-align: center;
-    font-size: 200%;
+#logo {
+    font-size: 250%;
+    float: left;
+    color: red;
 }
 
-/* navigation */
-nav {
-    text-align: center;
+#logo, #nav_links {
+    line-height: 100px;
 }
 
-li {
-    display: inline-block;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin: 20px;
+#nav_links li {
+    float: right;
+    margin-right: 90px;
     list-style-type: none;
 }
 
-#nav_links a {
-    text-decoration: none;
+#welcome {
+    height: 400px;
+}
+
+#welcome_text {
+    text-align: center;
+    line-height: 200px;
+}
+
+#about {
+    height: 200px;
+    background-color: bisque;
+}
+
+#explain {
+    height: 200px;
+}
+
+#feedback {
+    height: 300px;
+    background-color: aqua;
+}
+
+.info_heading {
+    color: red;
+}
+
+.info_paragraph {
+    float: left;
+    width: 50%;
 }
